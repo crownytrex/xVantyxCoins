@@ -15,7 +15,7 @@ WindUI:AddTheme({
 })
 
 local Window = WindUI:CreateWindow({
-    Title = "xVantyx's Ultimate UI - Islands",
+    Title = "xVantyx's Ultimate UI - Universal",
     Icon = "door-open", -- lucide icon. optional
     Author = "by zyx", -- optional
 })
