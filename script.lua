@@ -59,7 +59,33 @@ local Button = Tab:Button({
     Desc = "MUST BE IN HUB",
     Locked = false,
     Callback = function()
-       print("Using Rspy sell 1 LPC to dom in hub and find the remote that grants coins.") -- Using rpsy sell 1 large pineapple crate to dom and find the remote that gives you the coins. (Replace this text with the remote from rspy)
+        -- Using rpsy sell 1 large pineapple crate to dom and find the remote that gives you the coins. (Replace this text with the remote from rspy)
+    end
+})
+
+local Button = Tab:Button({
+    Title = "Get Loadstring",
+    Desc = "Shows loadstring in a popup",
+    Locked = false,
+    Callback = function()
+        WindUI:Popup({
+    Title = "Github Loadstring:",
+    Icon = "info",
+    Content = "loadstring(game:HttpGet("https://raw.githubusercontent.com/crownytrex/xVantyxCoins/refs/heads/main/script.lua"))()",
+    Buttons = {
+        {
+            Title = "Close",
+            Callback = function() end,
+            Variant = "Tertiary",
+        },
+        {
+            Title = "Okay",
+            Icon = "arrow-right",
+            Callback = function() end,
+            Variant = "Primary",
+        }
+    }
+})
     end
 })
 
