@@ -63,32 +63,6 @@ local Button = Tab:Button({
     end
 })
 
-local Button = Tab:Button({
-    Title = "Get Loadstring",
-    Desc = "Shows loadstring in a popup",
-    Locked = false,
-    Callback = function()
-        WindUI:Popup({
-    Title = "Github Loadstring:",
-    Icon = "info",
-    Content = "loadstring(game:HttpGet("https://raw.githubusercontent.com/crownytrex/xVantyxCoins/refs/heads/main/script.lua"))()",
-    Buttons = {
-        {
-            Title = "Close",
-            Callback = function() end,
-            Variant = "Tertiary",
-        },
-        {
-            Title = "Okay",
-            Icon = "arrow-right",
-            Callback = function() end,
-            Variant = "Primary",
-        }
-    }
-})
-    end
-})
-
 local Keybind = Tab:Keybind({
     Title = "Keybind",
     Desc = "Keybind to open ui",
