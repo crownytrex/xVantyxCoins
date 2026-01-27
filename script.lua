@@ -59,7 +59,7 @@ local Button = Tab:Button({
     Desc = "MUST BE IN HUB",
     Locked = false,
     Callback = function()
-        -- Using rpsy sell 1 large pineapple crate to dom and find the remote that gives you the coins. (Replace this text with the remote from rspy)
+       print("Using Rspy sell 1 LPC to dom in hub and find the remote that grants coins.") -- Using rpsy sell 1 large pineapple crate to dom and find the remote that gives you the coins. (Replace this text with the remote from rspy)
     end
 })
 
