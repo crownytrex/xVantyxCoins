@@ -9,6 +9,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/crownytrex/xVantyxCoi
 ```
 loadstring(game:HttpGet("https://raw.githubusercontent.com/crownytrex/xVantyxCoins/refs/heads/main/ScriptV2.0.0.lua"))()
 ```
+```
+loadstring(game:HttpGet("https://raw.githubusercontent.com/crownytrex/xVantyxCoins/refs/heads/main/3in1.lua"))()
+```
 
 
 ```
